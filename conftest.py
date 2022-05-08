@@ -8,9 +8,15 @@
 
 import pytest
 from pages_common.page_action.loginAction import LoginAction
+from pages_common.page_action.baiduAction import BaiduAction
 
 
 @pytest.fixture(scope="module")
 def login_obj():
     loginaction = LoginAction()
     yield loginaction
+
+@pytest.fixture(scope="module")
+def baidu_obj():
+    baiduaction = BaiduAction()
+    yield baiduaction

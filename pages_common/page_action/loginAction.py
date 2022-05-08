@@ -21,4 +21,4 @@ class LoginAction(BaseAction, LoginPage):
         self.text_inpit(self.passwordEle, password)
 
     def login_button(self):
-        self.click(self.login_btu())
+        self.click(self.login_btu)
