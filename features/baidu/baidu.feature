@@ -1,4 +1,4 @@
-Feature: 测试百度是否正常工作
+Feature: 测试百度搜索
 
   Scenario: 访问百度并搜索关键字
     Given 访问百度首页
