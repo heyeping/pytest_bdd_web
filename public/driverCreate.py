@@ -15,6 +15,6 @@ class DriverCreate(Signal):
         if not hasattr(self, '_driver'):
             self._driver = webdriver.Chrome()
             self._driver.maximize_window()
-            self._driver.get("https://imp.leedarson.com/login?mode=account")
+            self._driver.get("https://www.baidu.com")
             self.driver = self._driver
         return self.driver
